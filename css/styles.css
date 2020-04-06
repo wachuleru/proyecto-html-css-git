@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+
+}
+
+/* 
+SECCION DEL HEADER
+*/
+.header {
+    background: url('https://images.unsplash.com/photo-1554123168-b400f9c806ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1550&q=80') no-repeat fixed  center;
+    background-image: 'https://images.unsplash.com/photo-1554123168-b400f9c806ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80';
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+    justify-content: center;
+    padding:50px 150px;
+    width:100%;
+}
+
+.header-nav{
+    align-content: space-around;
+    display:flex;
+    height: 70px;
+    width:100%;
+}
+
+.head-button{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    width:50%;
+    
+}
+
+.logo{
+    width:50%;
+}
+
+.head-button button{
+    color:#ffffff;
+    margin:10px;
+    padding: 1px 20px !important;
+    text-shadow:2px 2px 4px #000000;    
+}
+
+.head-button button:hover{
+    background-color: tomato;
+    color:#ffffff;
+    padding:10px;
+    text-shadow:2px 2px 4px #000000;
+}
+
+.head-button .button-border{
+    border: 1px solid white;
+    border-radius: 0.5em/0.5em;
+    -webkit-border-radius: 0.5em/0.5em;
+    -moz-border-radius: 0.5em/0.5em;
+    -ms-border-radius: 0.5em/0.5em;
+    -o-border-radius: 0.5em/0.5em;
+}
+.logo img{
+    height: 120px;
+    
+}
+
+.input-form{
+    align-self: baseline;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin:0;
+    padding:0;
+}
+
+.input-form p{
+    color:white;
+    display: flex;
+    justify-content: center;
+    text-shadow:2px 2px 4px #000000;
+}
+
+
+.inline{
+    background-color: white !important;
+    display:inline;
+    padding: 0px 0px;
+}
+
+.input-form button{
+    background-color: rgb(163, 36, 36);
+    color:white;
+    height: 40px;   
+    margin:0px;
+    padding : 9px 3px 9px 3px; 
+}
+
+.inline input[type='text']{
+    border:0;
+    font-size: 0.8em;
+    height:29px;
+    margin:0px;
+    margin-left:3px;
+    padding:0px;
+}
+
+/* Fecha para subir */
+.up{
+    background-color:  rgb(163, 36, 36);
+    border-radius: 0.5em/0.5em;
+    bottom:30px;
+    position: fixed;
+    right:30px;
+    
+}
+.up span{
+    color:white;
+    padding:0px 4px 0px 4px;
+    text-align: center;
+    /* margin-left: 3px;
+    margin-right: 3px; */    
+}
+
+.up:hover{
+    background-color: tomato;
+}
+
+
+/* 
+SECCION HOTELES
+*/
+.hoteles{
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    height: 700px;
+    
+}
+
+.lista-hoteles{
+    align-self: center;
+    display: flex;
+    flex-flow: row wrap;    
+    justify-content: space-around;
+}
+.hoteles .titulo{
+    font-size: 4em;    
+    margin-top: 30px;
+}
+
+.hotel{
+    border:1px solid rgb(234, 234, 234,0.8);
+    border-radius: 0.5em/0.5em;
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+    /* box-shadow:2px 2px 4px black; */
+    padding: 10px 0px;
+    width:23%;
+    /* align-content: center;
+    align-items: center;*/
+}
+
+.hotel:hover{
+    box-shadow:2px 2px 4px black;
+}
+
+.hotel img{
+    height: 250px;
+    width:100%;    
+}
+
+.hotel h3{
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hotel p{
+    padding:25px;
+    text-align: justify;
+}
+
+.hotel .rojo{
+    background-color: rgb(255, 88, 88,0.2);
+    border-radius: 0.5em/0.5em;
+    color:red;
+    margin-left:25px;
+    padding:10px;
+    text-align: center;
+    width:60%;  
+}
+
+/* 
+SECCION VUELOS
+*/
+.vuelos{
+    align-items: center;
+    background: url('https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80') no-repeat fixed  center;
+    background-image: 'https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80';
+    display: flex;
+    flex-direction: column;
+    height: 1400px;
+    /* justify-content: center; */
+}
+
+.vuelos .titulo-vuelos{
+    color:white;
+    font-family: 'Righteous';
+    font-size: 4em;   
+    font-weight: bold;
+    margin-top: 30px;    
+    text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.lista-vuelos{
+    align-self: center;
+    display: flex;
+    flex-flow: row wrap;    
+    justify-content: space-around;
+}
+
+.vuelo{    
+    background-color: white;
+    border:1px solid rgb(234, 234, 234,0.8);
+    border-radius: 0.5em/0.5em;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;     
+    margin-top:30px;
+    margin-right: 20px;
+    padding: 10px 0px;
+    width:25%;
+}
+
+.vuelo img{
+    height: 250px;
+    width:100%;
+    
+}
+
+.vuelo h3{
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.vuelo .rojo{
+    background-color: rgb(255, 88, 88,0.2);
+    border-radius: 0.5em/0.5em;
+    color:red;
+    margin-left:25px;
+    padding:10px;
+    text-align: center;
+    width:60%; 
+}
+
+.vuelo p{
+    padding:25px;
+    text-align: justify;
+}
+
+.vuelo:hover{
+    box-shadow:2px 2px 4px black;
+}
