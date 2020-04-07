@@ -6,12 +6,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/_resets.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://icono-49d6.kxcdn.com/icono.min.css">
+    <!-- <link rel="stylesheet" href="https://icono-49d6.kxcdn.com/icono.min.css"> -->
+    <script src="https://kit.fontawesome.com/58d4022728.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <div class="up">
-        <a href="#header"><span class=icono-caretUp></span></a>
+        <a href="#header"><i class="fas fa-angle-up"></i></a>
     </div>
     <div class="header" id="header">
         <div class="header-nav">
@@ -35,7 +36,7 @@
         <div class="input-form">
             <p><b>A dónde quieres viajar?</b></p>
             <div class="inline">
-                <span class="icono-search"></span>
+                <span class="fas fa-search"></span>
                 <input type="text" placeholder="Mi próximo destino es?">
                 <button>Search</button>
             </div>
@@ -173,6 +174,29 @@
             </div>
         </div>
 
+    </div>
+    <div class="contacto">
+        <p class='titulo'>Contactanos</p>
+
+        <div class="contact-form">
+            <form action="" method="GET">
+                <div class="form-input">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Juanin">
+                </div>
+                <div class="form-input">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Jan Jarri">
+                </div>
+                <div class="form-input">
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="mail" placeholder="juanin@31minutos.cl">
+                </div>
+                <div class="form-input">
+                    <button>Enviar</button>
+                </div>
+            </form>
+        </div>
     </div>
     
 </body>
