@@ -278,6 +278,8 @@ SECCION VUELOS
     width:60%; 
 }
 
+
+
 .vuelo p{
     padding:25px;
     text-align: justify;
@@ -291,7 +293,7 @@ SECCION VUELOS
 CONTACTO
  */
 
- .contacto{
+.contacto{
     align-items: center;
     background: url('https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80') no-repeat fixed center;
     background-image: 'https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80';
@@ -300,53 +302,50 @@ CONTACTO
     flex-direction: column;
     height:500px;
     width:100%;
-    
-          
- }
+}
 
- .contacto .titulo{
+.contacto .titulo{
     color:white;
     font-family: 'Righteous';
     font-size: 4em;   
     font-weight: bold;
     margin-top: 30px;    
     text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
- }
+}
 
- .contacto .contact-form{
-    
+.contacto .contact-form{
     background-color: white;
-    
     padding:30px;
     width:50%;
-    
- }
+}
 
- .form-input{
+.form-input{
     display:flex;
     flex-direction: column;
-    
+}
 
- }
-
- .form-input input{
+.form-input input{
     width:100%;
     height: 40px;
     margin-top:10px;
     margin-bottom: 10px;
- }
+}
 
- .form-input label{
+.form-input label{
     font-weight: bold;
- }
+}
 
- .form-input button{
-    width: 100%;
-    background-color:  rgb(163, 36, 36);
-    color:white;
-    height: 40px;
- }
+.form-input button{
+width: 100%;
+background-color:  rgb(163, 36, 36);
+color:white;
+height: 40px;
+}
 
- .form-input button:hover{
+.form-input button:hover{
     background-color: tomato;
- }
+}
+
+.rojo:hover{
+    background-color: rgba(248, 9, 9, 0.3);
+}
