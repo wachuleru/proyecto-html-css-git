@@ -28,7 +28,7 @@
                 <button><a href="#hoteles">Hoteles</a></button>
                 <button><a href="#vuelos">Vuelos</a></button>
                 <button><a href="#vuelos">Tour</a></button>
-                <button class="button-border">Contacto</button>
+                <button class="button-border"><a href="#contacto">Contacto</a></button>
             </div>
 
             
@@ -36,9 +36,11 @@
         <div class="input-form">
             <p><b>A dónde quieres viajar?</b></p>
             <div class="inline">
-                <span class="fas fa-search"></span>
-                <input type="text" placeholder="Mi próximo destino es?">
-                <button>Search</button>
+                <form action="" method="GET">
+                    <span class="fas fa-search"></span>
+                    <input type="text" id="destino" name="destino" placeholder="Mi próximo destino es?">
+                    <button>Search</button>
+                </form>
             </div>
         </div>
     </div>
@@ -175,7 +177,7 @@
         </div>
 
     </div>
-    <div class="contacto">
+    <div id="contacto" class="contacto">
         <p class='titulo'>Contactanos</p>
 
         <div class="contact-form">
